@@ -6,6 +6,15 @@ This is a Telegram bot that scrapes a group to: (1) collect and save the usernam
 
 ## Table of Contents
 In progress 🏗️
+[Description](#description)
+[Features](#features)
+[Requirements](#requirements)
+[Installation](#installation)
+[Configuration](#configuration)
+[Usage](#usage)
+[Project Structure](#project-structure)
+[Notes & Limitations](#notes--limitations)
+[License](#license)
 
 ## Features
 1. Scrapes and saves all participant usernames from a Telegram group.
