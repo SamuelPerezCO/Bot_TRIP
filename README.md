@@ -5,7 +5,6 @@
 This is a Telegram bot that scrapes a group to: (1) collect and save the username of every participant, and (2) send a personalized message to each one.
 
 ## Table of Contents
-In progress 🏗️
 [Description](#description)
 
 [Features](#features)
