@@ -1,13 +1,14 @@
 from telethon import TelegramClient, events
-from dotenv import load_dotenv
-import os
+from get_client import client
+# from dotenv import load_dotenv
+# import os
 
-load_dotenv()
+# load_dotenv()
 
-TELEGRAM_API_ID = os.getenv("api_id")
-TELEGRAM_API_HASH = os.getenv("api_hash")
+# TELEGRAM_API_ID = os.getenv("api_id")
+# TELEGRAM_API_HASH = os.getenv("api_hash")
 
-client = TelegramClient('TRIP_UNP_BOT', TELEGRAM_API_ID, TELEGRAM_API_HASH)
+# client = TelegramClient('TRIP_UNP_BOT', TELEGRAM_API_ID, TELEGRAM_API_HASH)
 
 @client.on(events.NewMessage(pattern='(?i)hi|hello'))
 async def handler(event):
