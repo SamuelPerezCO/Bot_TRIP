@@ -8,7 +8,7 @@ async def get_members(client: TelegramClient):
         i = 1
         async for user in client.iter_participants(channel):
             print(f"{i} -{user.id} - {user.first_name} - {user.username}")
-            user_id_txt.write(f"{user.id}")
+            user_id_txt.write(f"{user.id} \n")
             i += 1
         user_id_txt.close()
 
