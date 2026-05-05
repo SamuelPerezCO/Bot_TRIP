@@ -23,3 +23,8 @@
     
 #     print("Bot is running. Listening for 'hi/hello' messages...")
 #     await client.run_until_disconnected()   
+
+# @client.on(events.NewMessage(pattern='(?i)hi|hello'))
+# async def handler(event):
+#     print(f"Received: {event.message.text}")
+#     await event.respond('Hey!')
